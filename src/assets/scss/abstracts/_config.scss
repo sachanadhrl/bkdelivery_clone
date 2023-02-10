@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'FlameSans';
+  font-style: normal;
+  src: local(FlameSans), url(@/assets/fonts/FlameSans.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FlameRegular';
+  font-style: normal;
+  src: local(FlameRegular), url(@/assets/fonts/FlameRegular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'FlameBold';
+  font-weight: bold;
+  src: local(FlameBold), url(@/assets/fonts/FlameBold.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');

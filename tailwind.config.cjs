@@ -6,7 +6,14 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'flame-sans': ['FlameSans', 'serif'],
+        'flame-regular': ['FlameRegular', 'serif'],
+        'flame-bold': ['FlameBold', 'serif'],
+        'barlow': ['Barlow', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
