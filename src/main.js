@@ -7,8 +7,8 @@ import './style.scss'
 import App from './App.vue'
 
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
-import { HiShoppingCart } from 'oh-vue-icons/icons'
-addIcons(HiShoppingCart)
+import { HiSolidShoppingCart, HiMenu, HiX } from 'oh-vue-icons/icons'
+addIcons(HiSolidShoppingCart, HiMenu, HiX)
 
 createApp(App)
 .component('vIcon', OhVueIcon)
