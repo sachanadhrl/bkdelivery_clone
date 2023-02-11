@@ -17,3 +17,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  @apply w-full min-h-screen font-flame-sans;
+  background: url(@/assets/img/BK_bg.jpg) center center/cover no-repeat fixed;
+}

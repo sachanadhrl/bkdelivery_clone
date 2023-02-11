@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "./assets/scss/abstracts/config";
+
+@import "./assets/scss/components/navbar";
