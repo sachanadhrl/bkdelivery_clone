@@ -1,6 +1,6 @@
 import { createStore } from "vuex"
 
-import { urlFor, sanityApi } from '../_api/sanity-client'
+import { sanityApi } from '../_api/sanity-client'
 
 const store = createStore({
   state: {
@@ -11,12 +11,14 @@ const store = createStore({
   actions: {
     async getMenus({ commit }) {
       const query = '*[_type == "menus"]'
-      const allMenus = await sanityApi.fetch(query)
-        try {
+      try {
+        const allMenus = await sanityApi.fetch(query)
+        setTimeout(() => {
           commit("GET_MENUS", allMenus)
-        } catch (err) {
-          throw err
-        }
+        }, 2000)
+      } catch (err) {
+        throw err
+      }
     }
   },
   mutations: {
