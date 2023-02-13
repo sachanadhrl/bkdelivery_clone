@@ -12,7 +12,12 @@ const routes = [
   },
   {
     path: "/menus",
-    name: "menu",
+    name: "menus",
+    component: Menu
+  },
+  {
+    path: "/menus/:slug",
+    name: "menus-variant",
     component: Menu
   },
   {
