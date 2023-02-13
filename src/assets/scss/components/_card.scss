@@ -1,0 +1,21 @@
+.card {
+  $this: &;
+  @apply bg-white rounded-lg shadow-md p-1.5 pb-2.5 md:p-5;
+
+  &-header {
+    @apply aspect-auto rounded-md overflow-hidden;
+
+    #{$this}-img {
+      @apply object-cover;
+    }
+  }
+
+  &-body {
+    @apply my-3;
+  }
+
+  &-title {
+    @apply md:text-xl font-flame-bold text-yellow-800 mt-0 lg:mt-2;
+  }
+
+}

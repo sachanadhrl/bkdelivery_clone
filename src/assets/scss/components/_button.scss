@@ -1,0 +1,7 @@
+.btn {
+  @apply min-w-[130px] text-white text-center font-flame-regular rounded py-2 px-2.5;
+
+  &-primary {
+    @apply bg-amber-600;
+  }
+}
